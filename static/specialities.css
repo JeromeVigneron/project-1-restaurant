@@ -183,6 +183,21 @@ h1 {
     object-fit: cover;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 0.6875rem;
+}
+
+footer p {
+    font-size: 4vw;
+}
+
+.logo-f img {
+    width: 13vw;
+}
+
 @media screen and (min-width: 768px) {
     .container {
         max-width: 100%;
@@ -208,5 +223,14 @@ h1 {
         display: flex;
         justify-content: space-between;
         width: 100%;
+    }
+    footer {
+        margin: 0 0.6875rem;
+    }
+    footer p {
+        font-size: 1.2vw;
+    }
+    .logo-f img {
+        width: 3vw;
     }
 }
