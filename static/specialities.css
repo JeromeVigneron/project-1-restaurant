@@ -152,6 +152,37 @@ body {
     display: none;
 }
 
+h1 {
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: xx-large;
+    color: #FB8500;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    height: 50%;
+}
+
+.bloc-container-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 5rem;
+    margin-bottom: 5rem;
+}
+
+.bloc {
+    width: 100%;
+}
+
+.bloc img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 @media screen and (min-width: 768px) {
     .container {
         max-width: 100%;
@@ -172,5 +203,10 @@ body {
         margin: 0;
         padding: 0;
         text-align: center;
+    }
+    .bloc-container-images {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
     }
 }
