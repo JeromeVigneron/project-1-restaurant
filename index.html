@@ -1,17 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
     <title>Accueil</title>
 </head>
-
 <body>
     <header>
         <nav>
@@ -24,70 +20,79 @@
                         <span class="line line3"></span>
                     </div>
                     <div class="logo">
-                        <img src="../pictures/carotte.png" alt="" width="40px">
+                        <img src="/pictures/carotte-accueil.png" alt="Logo de carotte" width="40px">
                     </div>
                     <div class="menu-items">
-                        <li><a href="index.html">Accueil</a></li>
-                        <li><a href="../static/services.html">Services</a></li>
-                        <li><a href="../static/specialities.html">Nos Specialites</a></li>
-                        <li><a href="../static/contact.html">Contact</a></li>
+                        <li><a href="/index.html">Accueil</a></li>
+                        <li><a href="/static/services.html">Services</a></li>
+                        <li><a href="/static/specialities.html">Nos spécialités</a></li>
+                        <li><a href="/static/contact.html">Contact</a></li>
                     </div>
                 </div>
             </div>
         </nav>
-        <h1>
-            La fière carotte
-        </h1>
+        <div class="image-accueil">
+        <!-- <img id = "img" src="/pictures/general_background_image.png"> -->
+        <div class="texte-image" ><h1>La fière carotte</h1></div>
+        </div>
     </header>
     <main>
-        <section class="menu">
-            <h2>
-                Menu du jour
-            </h2>
+        <section class = "presentation">
+           <div class="menudujour">
+               <h2>Menu du jour</h2>
+            </div> 
+            <div class ="histoire">
+                <h2>Notre histoire</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lobortis, augue a rhoncus vehicula, ligula mi efficitur risus, id tempor tortor mauris vel velit. Suspendisse vestibulum nibh nec.</p>
+            </div>
+        
+<div class = "void"></div>
+
         </section>
-        <section class="concept">
-            <h2>
-                Titre du concept
-            </h2>
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium aliquid hic excepturi voluptas quibusdam vel maxime neque commodi modi ullam consequatur iure nostrum obcaecati corrupti ut vitae, consectetur iste veniam.
-            </p>
+        <section class="lebutton">
             <button type="button">
        Découvrez nos services
     </button>
         </section>
+
         <section class="equip">
             <h2>
                 L'équipe
             </h2>
+        </section>
+        
+        <section class="photoequip">
             <div>
-                <img src="" alt="">
+                <img src="/pictures/team_woman.png" alt="Cheffe">
                 <p></p>
             </div>
             <div>
-                <img src="" alt="">
+                <img src="/pictures/team_man_2.png" alt="Cuisinier">
                 <p></p>
             </div>
             <div>
-                <img src="" alt="">
+                <img src="/pictures/team_man_1.png" alt="Serveur">
                 <p></p>
             </div>
         </section>
-        <section class="contact-btn">
+        
+        <section class="bouton-contact">
             <button type="button">
-Nous contacter
-</button>
+                <p>Nous contacter</p>
+            </button>
         </section>
     </main>
-    <footer>
-        <p>
-            &#169; - 2022 La fière carotte
-        </p>
-        <div class="logo-f">
-            <img src="../pictures/twitter.png" alt="">
-            <img src="../pictures/youtube.png" alt="">
-            <img src="../pictures/instagram.png" alt="">
-        </div>
+            <footer>
+                <p>
+                    &#169; - 2022 La fière carotte
+                </p>
+                <div class="logo-f">
+                    <img src="../pictures/twitter.png" alt="">
+                    <img src="../pictures/youtube.png" alt="">
+                    <img src="../pictures/instagram.png" alt="">
+                </div>
+            </footer>
+        </section>
     </footer>
     <script src="main.js"></script>
 </body>
