@@ -1,66 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html">
+    <meta name="viewport"
+		content="width=device-width, user-scalable=yes,
+		initial-scale=1.0, maximum-scale=1"/>
+     
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300&display=swap" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="./contact.css"/>
+    
     <title>Contact</title>
-
 </head>
-
 <body>
-    <header>
+     <header>
         <nav>
-            <img src="" alt="">
-            <a href="../index.html">Accueil</a>
-
-            <a href="services.html">Services</a>
-
-            <a href="specialities.html">Nos Specialites</a>
-
-            <a href="contact.html">Contact</a>
-
+            <div class="navbar">
+                <div class="container nav-container">
+                    <input class="checkbox" type="checkbox" name="" id="" />
+                    <div class="hamburger-lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                    </div>
+                    <div class="logo">
+                        <img src="../pictures/carotte.png" alt="image d'un logo en forme de carotte" width="40px">
+                    </div>
+                    <div class="menu-items">
+                        <li><a href="../index.html">Accueil</a></li>
+                        <li><a href="./services.html">Services</a></li>
+                        <li><a href="./specialities.html">Nos Specialites</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <section class="carte">
-
-        </section>
-        <img src="" alt="">
+		<section>
+			<iframe src="https://jeromevigneron.toile-libre.org/#18/45.64954/0.15551" title="Carte vers le restaurant"></iframe>
+		</section>
+		<section>
+			<h2 id="message-title">Laissez-nous un message</h2>
+			<form>
+				<div>
+					<div>
+						<label for="mail">Mail</label>
+						</br>
+						<input type="email" id="email" name="email"
+								placeholder="Votre mail...">
+					</div>
+					<div>
+						<label for="reason">Votre demande concerne</label>
+						</br>
+						<select id="reason" name="reason">
+							<option value="choose">Choisir...</option>
+							<option value="reservation">Un retour sur une réservation</option>
+							<option value="prestation">Une demande de prestation</option>
+							<option value="other">Autre</option>
+						</select>
+					</div>
+					<div>
+						<label for="message">Message</label>
+						</br>
+						<textarea id="message" name="message" rows="12" cols="30.5">
+						</textarea>
+					</div>
+					<div>
+						<input type="submit" id="submit" value="Envoyer">
+					</div>
+				</div>
+			</form>
+		</section>
     </main>
-    <section class="contact">
-        <h2>
-            Coordonnées
-        </h2>
-    </section>
-    <form>
-        <label for="name">Prénom</label> <input type="text" id="firstname" name="username">
-        <label for="lastname">Nom</label> <input type="text" id="lastname" name="lastname">
-        <label for="structure">Structure</label> <input type="text" id="lastname" name="structure">
-        <label for="mail">Mail</label> <input type="text" id="mail" name="mail">
-        <label for="objet">Mail</label> <input type="text" id="objet" name="objet">
-        <label for="objet">Objet</label> <input type="text" id="mail" name="mail">
-        <label for="message">Mail</label> <input type="textarea" id="area" name="area">
-    </form>
-    <section class="contact-btn2">
-        <button type="button">
-        Valider
-        </button>
-        <button type="button">
-            Réinitialiser
-            </button>
-    </section>
-    <section class="avis">
-        <label for="name">Prénom</label> <input type="text" id="firstname" name="username">
-        <label for="lastname">Nom</label> <input type="text" id="lastname" name="lastname">
-        <label for="message">Mail</label> <input type="textarea" id="area" name="area">
-    </section>
     <footer>
         <p>
-            &#169; 2022 La fière carotte
+            &copy; - 2022 La fière carotte
         </p>
+        <div class="logo-f">
+            <img src="../pictures/twitter.png" alt="">
+            <img src="../pictures/youtube.png" alt="">
+            <img src="../pictures/instagram.png" alt="">
+        </div>
     </footer>
 </body>
-
 </html>
