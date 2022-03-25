@@ -2,6 +2,8 @@
     --main-color: #FB8500;
     --second-color: #023047;
     --main-font: 'Kanit', sans-serif;
+    --title-size: 9vw;
+    --title-size-d: 3.5vw;
 }
 
 * {
@@ -149,9 +151,9 @@ body {
 
 h1 {
     text-align: center;
-    font-family: 'Kanit', sans-serif;
-    font-size: xx-large;
-    color: #FB8500;
+    font-family: var(--main-font);
+    font-size: var(--title-size);
+    color: var(--main-color);
     padding-top: 5rem;
     padding-bottom: 3rem;
     width: 100%;
@@ -214,6 +216,9 @@ footer p {
         margin: 0;
         padding: 0;
         text-align: center;
+    }
+    h1 {
+        font-size: var(--title-size-d);
     }
     .bloc-container-images {
         display: flex;

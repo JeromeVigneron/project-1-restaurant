@@ -2,6 +2,8 @@
     --main-color: #FB8500;
     --second-color: #023047;
     --main-font: 'Kanit', sans-serif;
+    --title-size: 9vw;
+    --title-size-d: 3.5vw;
 }
 
 * {
