@@ -246,11 +246,11 @@ h1 {
 .photoequip {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 5px;
 }
 .photoequip img {
     height: 120px;
-    margin-top: 6rem;
+    margin-top: 1.1rem;
 }
 /* .concept {
     display: flex;
@@ -383,6 +383,18 @@ button p {
         height: 40vw;
         display: flex;
         justify-content: center;
+    }
+    .photoequip {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+    }
+    .photoequip img {
+        height: 120px;
+        margin-top: 2rem;
+    }
+    .equip h2 {
+        font-size: 2.7vw;
     }
 
 }
