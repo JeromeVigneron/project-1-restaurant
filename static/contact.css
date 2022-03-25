@@ -8,7 +8,7 @@
 	--font-color: #000000; /* black */
 	--second-font-color: #FFFFFF; /* white */
 	--color: #8ECAE6; /* sky blue */
-	--second-color: #FB8500; /* dark orange */
+	--main-color: #FB8500; /* dark orange */
 	--third-color:  #FFB703; /* light orange */
 	--text-spacing: 1rem;
 	--imagery-spacing: 1vw;
@@ -239,6 +239,10 @@ section > form > div > div > input#submit:hover {
 }
 
 footer {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
 	padding: calc(var(--text-spacing)*0.5);
 	background-color: var(--second-background-color);
 }
@@ -249,7 +253,7 @@ footer p {
 }
 
 .logo-f img {
-    width: 13vw;
+    width: 3vw;
 }
 }
 
@@ -342,4 +346,4 @@ main > section:nth-of-type(2) {
 	height: 81vw;
 	padding: var(--imagery-spacing);
 }
-}
+
